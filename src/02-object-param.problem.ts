@@ -1,6 +1,8 @@
 import { expect, it } from "vitest";
 
-export const addTwoNumbers = (params) => {
+type tipo = {first:number, second: number}
+
+export const addTwoNumbers = (params:tipo) => {
   return params.first + params.second;
 };
 
